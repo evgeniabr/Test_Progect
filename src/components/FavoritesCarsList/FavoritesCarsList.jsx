@@ -43,6 +43,7 @@ export default function FavoritesCarsList() {
 
   return (
     <div className={css.container}>
+         { (savedFavorites.length > 0) ? 
       <ul className={css.favoritesCarsList}>
         {cardList.map((car, id) => {
           return (
@@ -54,7 +55,12 @@ export default function FavoritesCarsList() {
             />
           );
         })}
-      </ul>
+      </ul> :
+       <div className={css.notSelectedFavorites}>
+       You have not selected your favorite cars
+     </div>
+   }
+
 
       {showModal && (
         <Modal onClose={toggleModal}>

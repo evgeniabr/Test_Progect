@@ -9,7 +9,7 @@ export default function Favorites() {
   return (
     <>
       {isLoading && <Loader />}
-      <FavoritesCarsList />
+      <FavoritesCarsList /> :
     </>
   );
 }
