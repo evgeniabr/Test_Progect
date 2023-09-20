@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 15px;
+}
+
+.cardsList {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 29px;
+  column-gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.isButtonVisible {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: rgba(52, 112, 255, 1);
+  text-decoration-line: underline;
+  &:hover,
+  &:focus {
+    color: rgba(11, 68, 205, 1);
+    scale: 1.05;
+  }
+}
+.unvisibil {
+    opacity: 0;
+  }

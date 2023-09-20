@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  width: 100%;
+  padding: 20px 140px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #3470ff;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 800;
+  &:hover
+  {
+    color: rgba(11, 68, 205, 1);
+    scale: 1.05;
+  }
+  &:focus {
+    scale: 1.05;
+    color: orange;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.navLink {
+  color: #3470ff;
+  font-family: 'Manrope';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  cursor: pointer;
+  &:hover,
+  &:focus
+   {
+    color: orange;
+    scale: 1.05;
+   
+  
+  }}
+
