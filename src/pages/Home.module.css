@@ -3,7 +3,7 @@
   display: flex;
   width: 100vw;
   background-color: dodgerblue;
-  background-image: url('https://pixabay.com/get/g5aa6ce43cdca8d595ddacbb1def3c3b61c4157d1a9a2274d03e7ab51664da67d29230702f39cec2a584b8cf19ede3d0f83047e19977d5d31ebef4d4340ffcfb3_640.jpg');
+  background-image: url('../images/hero.jpg');
   margin-top: 15px;
   background-position: center;
   background-size: cover;
